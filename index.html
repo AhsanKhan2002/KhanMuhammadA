@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Muhammad Ahsan Khan — Computer Science Graduate, Technical Support Analyst. Focused on IT systems, automation, and problem solving." />
+  <title>Ahsan Khan — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ─── NAVBAR ─────────────────────────────────────────── -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">AK</a>
+
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+          <span class="icon-sun">☀︎</span>
+          <span class="icon-moon">☽</span>
+        </button>
+        <button class="nav-hamburger" id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile menu -->
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#about" class="mobile-link">About</a>
+      <a href="#skills" class="mobile-link">Skills</a>
+      <a href="#experience" class="mobile-link">Experience</a>
+      <a href="#projects" class="mobile-link">Projects</a>
+      <a href="#contact" class="mobile-link">Contact</a>
+    </div>
+  </nav>
+
+  <!-- ─── HERO ──────────────────────────────────────────── -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-orb orb-1"></div>
+    <div class="hero-bg-orb orb-2"></div>
+
+    <div class="hero-content">
+      <p class="hero-eyebrow reveal">Based in Mississauga, ON</p>
+      <h1 class="hero-name reveal">
+        <span class="name-line">Muhammad</span>
+        <span class="name-line accent-text">Ahsan Khan</span>
+      </h1>
+      <p class="hero-title reveal">Computer Science Graduate</p>
+      <p class="hero-tagline reveal">
+        Focused on IT systems,&nbsp; automation,&nbsp; and problem solving.
+      </p>
+      <div class="hero-cta reveal">
+        <a href="#experience" class="btn btn-primary">View Experience</a>
+        <a href="#contact" class="btn btn-ghost">Get in touch</a>
+      </div>
+    </div>
+
+    <div class="hero-scroll-hint reveal">
+      <span>scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ─── ABOUT ─────────────────────────────────────────── -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="section-label reveal">01 — About</div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <h2 class="section-heading">Building reliable systems<br/>from the ground up.</h2>
+          <p>
+            I'm a Computer Science graduate from York University's Lassonde School of Engineering
+            with hands-on experience in enterprise IT environments. At Trillium Health Partners,
+            I've supported critical clinical systems, led large-scale Windows 11 deployments,
+            and automated workflows that tangibly reduced operational overhead.
+          </p>
+          <p>
+            I bridge the gap between infrastructure and software — comfortable with Active Directory,
+            PowerShell scripting, healthcare applications, and backend development alike.
+            I care about systems that are stable, secure, and built to last.
+          </p>
+        </div>
+        <div class="about-stats reveal">
+          <div class="stat-card">
+            <span class="stat-num">800+</span>
+            <span class="stat-label">Windows 11 systems deployed</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">86%</span>
+            <span class="stat-label">Performance improvement via DB optimization</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">L2 / L3</span>
+            <span class="stat-label">Technical support level</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">2+</span>
+            <span class="stat-label">Years at Trillium Health Partners</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── SKILLS ────────────────────────────────────────── -->
+  <section class="section skills" id="skills">
+    <div class="container">
+      <div class="section-label reveal">02 — Skills</div>
+      <h2 class="section-heading reveal">What I work with.</h2>
+
+      <div class="skills-grid">
+
+        <div class="skill-group reveal">
+          <div class="skill-group-icon">⬡</div>
+          <h3>Enterprise IT</h3>
+          <ul>
+            <li>Active Directory</li>
+            <li>Microsoft Intune</li>
+            <li>SCCM</li>
+            <li>Microsoft 365 & SharePoint</li>
+            <li>Group Policy</li>
+            <li>Imprivata SSO</li>
+          </ul>
+        </div>
+
+        <div class="skill-group reveal">
+          <div class="skill-group-icon">◈</div>
+          <h3>ITSM</h3>
+          <ul>
+            <li>ServiceNow</li>
+            <li>Incident Management</li>
+            <li>ITIL Workflows</li>
+            <li>SLA Compliance</li>
+            <li>Asset Tracking</li>
+            <li>Request Management</li>
+          </ul>
+        </div>
+
+        <div class="skill-group reveal">
+          <div class="skill-group-icon">⌬</div>
+          <h3>Scripting & Data</h3>
+          <ul>
+            <li>PowerShell</li>
+            <li>Python</li>
+            <li>SQL / PostgreSQL</li>
+            <li>Azure Data Factory</li>
+            <li>Snowflake</li>
+            <li>ETL Pipelines</li>
+          </ul>
+        </div>
+
+        <div class="skill-group reveal">
+          <div class="skill-group-icon">◎</div>
+          <h3>Systems & Dev</h3>
+          <ul>
+            <li>Windows 10 / 11</li>
+            <li>Linux</li>
+            <li>Git / GitHub</li>
+            <li>Java / Spring Boot</li>
+            <li>REST APIs</li>
+            <li>EPIC, Meditech, PACS</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── EXPERIENCE ────────────────────────────────────── -->
+  <section class="section experience" id="experience">
+    <div class="container">
+      <div class="section-label reveal">03 — Experience</div>
+      <h2 class="section-heading reveal">Where I've worked.</h2>
+
+      <div class="timeline">
+
+        <div class="timeline-item reveal">
+          <div class="timeline-meta">
+            <span class="timeline-date">May 2025 — Present</span>
+            <span class="timeline-badge current">Current</span>
+          </div>
+          <div class="timeline-body">
+            <h3>Technical Support Analyst <span class="level-badge">L2 / L3</span></h3>
+            <p class="timeline-company">Trillium Health Partners</p>
+            <ul class="timeline-points">
+              <li>Led deployment of <strong>800+ Windows 11</strong> systems across hospital departments with minimal operational disruption.</li>
+              <li>Authored PowerShell scripts that automated IT processes and <strong>reduced manual workload by 40%</strong>.</li>
+              <li>Delivered Level 2 & 3 support for EPIC, Meditech, and medical imaging platforms in a high-demand clinical environment.</li>
+              <li>Managed Active Directory user lifecycle — provisioning, access control, group policy, and Intune endpoint compliance.</li>
+              <li>Supported Imprivata SSO authentication and enforced enterprise endpoint security policies.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-meta">
+            <span class="timeline-date">Oct 2024 — Dec 2024</span>
+          </div>
+          <div class="timeline-body">
+            <h3>Software Developer <span class="level-badge">Freelance</span></h3>
+            <p class="timeline-company">Riipen</p>
+            <ul class="timeline-points">
+              <li>Built RESTful APIs with Java & Spring Boot, cutting manual workflows by <strong>35%</strong>.</li>
+              <li>Engineered ETL pipelines from PostgreSQL → Snowflake using Azure Data Factory and SQL.</li>
+              <li>Improved database performance by <strong>86%</strong> through query optimization and caching strategies.</li>
+              <li>Developed Python dashboards for A/B testing analysis and engagement metrics.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-meta">
+            <span class="timeline-date">May 2023 — Mar 2024</span>
+          </div>
+          <div class="timeline-body">
+            <h3>IT Support Analyst <span class="level-badge">L1</span></h3>
+            <p class="timeline-company">Trillium Health Partners</p>
+            <ul class="timeline-points">
+              <li>Provided Level 1 support to clinical and administrative staff across hospital systems.</li>
+              <li>Managed Active Directory accounts, password resets, and access troubleshooting.</li>
+              <li>Supported EPIC, Meditech, Unity, and CellaVision applications.</li>
+              <li>Maintained accurate documentation and ticketing in ServiceNow.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-meta">
+            <span class="timeline-date">Sep 2022 — Dec 2022</span>
+          </div>
+          <div class="timeline-body">
+            <h3>Full-Stack Developer <span class="level-badge">Intern</span></h3>
+            <p class="timeline-company">Retoll</p>
+            <ul class="timeline-points">
+              <li>Improved database performance by <strong>25%</strong> through indexing and query optimization.</li>
+              <li>Integrated third-party APIs to extend application functionality.</li>
+              <li>Participated in Agile development cycles and peer code reviews.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── PROJECTS ──────────────────────────────────────── -->
+  <section class="section projects" id="projects">
+    <div class="container">
+      <div class="section-label reveal">04 — Projects</div>
+      <h2 class="section-heading reveal">Things I've built.</h2>
+
+      <div class="projects-grid">
+
+        <div class="project-card reveal">
+          <div class="project-number">01</div>
+          <div class="project-content">
+            <h3>Automated Plant Watering System</h3>
+            <p>An Arduino-based IoT system with real-time monitoring and remote control. Integrated hardware and software for automated, data-driven irrigation — improving yield by 30% and reducing water consumption by 40%.</p>
+            <div class="project-tags">
+              <span>Arduino</span>
+              <span>C++</span>
+              <span>IoT</span>
+              <span>Hardware Integration</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-number">02</div>
+          <div class="project-content">
+            <h3>Quantitative Trading Algorithm</h3>
+            <p>A C# Windows Forms application simulating trading scenarios with real-time algorithmic logic. Features data visualizations to compare strategy performance and outcomes, backed by OOP design principles.</p>
+            <div class="project-tags">
+              <span>C#</span>
+              <span>Windows Forms</span>
+              <span>Algorithms</span>
+              <span>Data Visualization</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-number">03</div>
+          <div class="project-content">
+            <h3>Horse Racing Simulation</h3>
+            <p>A C# race simulation with randomized behaviour, real-time UI updates, and concurrent movement logic. Applied event-driven programming and OOP to model dynamic race progression.</p>
+            <div class="project-tags">
+              <span>C#</span>
+              <span>OOP</span>
+              <span>Event Handling</span>
+              <span>Simulation</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── EDUCATION ─────────────────────────────────────── -->
+  <section class="section education" id="education">
+    <div class="container">
+      <div class="edu-card reveal">
+        <div class="edu-icon">◻</div>
+        <div class="edu-body">
+          <p class="edu-school">York University — Lassonde School of Engineering</p>
+          <h3>Bachelor of Computer Science</h3>
+          <p class="edu-date">September 2020 — June 2025</p>
+          <p class="edu-courses">Data Structures & Algorithms · Operating Systems · Databases · Embedded Systems · Game Programming · Mobile Apps · Software Engineering</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── CONTACT ───────────────────────────────────────── -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="section-label reveal">05 — Contact</div>
+      <div class="contact-inner">
+        <h2 class="contact-heading reveal">Let's connect.</h2>
+        <p class="contact-sub reveal">Open to new opportunities, collaborations, or just a good conversation about tech.</p>
+        <div class="contact-links reveal">
+          <a href="mailto:ahsan1805khan@gmail.com" class="contact-link">
+            <span class="contact-link-icon">✉</span>
+            <span>ahsan1805khan@gmail.com</span>
+          </a>
+          <a href="https://www.linkedin.com/in/m-ahsan-khan2002/" target="_blank" rel="noopener" class="contact-link">
+            <span class="contact-link-icon">in</span>
+            <span>linkedin.com/in/m-ahsan-khan2002</span>
+          </a>
+          <a href="https://github.com/AhsanKhan2002" target="_blank" rel="noopener" class="contact-link">
+            <span class="contact-link-icon">⌥</span>
+            <span>github.com/AhsanKhan2002</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 Muhammad Ahsan Khan. Built with HTML, CSS & JS.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
